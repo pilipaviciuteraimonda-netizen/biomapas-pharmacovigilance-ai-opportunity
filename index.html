@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Biomapas Pharmacovigilance Revenue Vertical — AI &amp; Automation Strategic Analysis</title>
+<meta name="description" content="Strategic analysis of the Biomapas pharmacovigilance vertical: automation readiness, AI integration pathways, vendor landscape, and the path to €200M revenue by 2030." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --ink: #0f1c2e;
+    --ink-soft: #2a3a52;
+    --muted: #5a6a82;
+    --line: #e3ddd0;
+    --line-strong: #c9c0ad;
+    --accent: #0b4f6c;
+    --accent-soft: #e8f0f4;
+    --gold: #b08a3e;
+    --warn: #8a3324;
+    --good: #2e6b4f;
+    --max: 1180px;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    font-size: 16.5px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(247, 245, 240, 0.92);
+    backdrop-filter: saturate(140%) blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .brand {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+  }
+  .brand .dot { color: var(--gold); }
+  .nav {
+    display: flex;
+    gap: 26px;
+    font-size: 13.5px;
+    color: var(--muted);
+    flex-wrap: wrap;
+  }
+  .nav a { color: var(--muted); transition: color .15s; }
+  .nav a:hover { color: var(--ink); text-decoration: none; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 88px 32px 60px;
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 22px;
+  }
+  .hero h1 {
+    font-size: clamp(34px, 4.8vw, 58px);
+    font-weight: 500;
+    line-height: 1.08;
+    margin: 0 0 24px;
+    max-width: 980px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .hero-sub {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 820px;
+    line-height: 1.6;
+    margin: 0 0 36px;
+  }
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px 40px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 22px 0;
+    margin-top: 18px;
+  }
+  .meta-grid div { font-size: 13.5px; }
+  .meta-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .meta-value { color: var(--ink); font-weight: 500; }
+
+  /* ---------- Disclaimer ---------- */
+  .disclaimer {
+    max-width: var(--max);
+    margin: 30px auto 0;
+    padding: 22px 32px;
+  }
+  .disclaimer-box {
+    background: #fbf8f1;
+    border-left: 3px solid var(--gold);
+    padding: 18px 24px;
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    border-radius: 2px;
+  }
+  .disclaimer-box strong { color: var(--ink); }
+
+  /* ---------- Sections ---------- */
+  section {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 64px 32px;
+    border-top: 1px solid var(--line);
+  }
+  section:first-of-type { border-top: none; }
+
+  .section-num {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+  section h2 {
+    font-size: clamp(26px, 3vw, 36px);
+    margin: 0 0 12px;
+  }
+  section h3 {
+    font-size: 21px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+  }
+  section h4 {
+    font-size: 17px;
+    margin-top: 28px;
+    margin-bottom: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+  .lede {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 760px;
+    margin: 8px 0 28px;
+  }
+  p { margin: 0 0 16px; color: var(--ink-soft); }
+
+  ul { padding-left: 22px; }
+  ul li { margin-bottom: 10px; color: var(--ink-soft); }
+
+  /* ---------- Tier cards ---------- */
+  .tier {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 26px 28px;
+    margin-bottom: 20px;
+  }
+  .tier-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+  }
+  .tier-tag {
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  .tier-1 .tier-tag { background: #e8f3ec; color: var(--good); }
+  .tier-2 .tier-tag { background: #fbf2e3; color: var(--gold); }
+  .tier-3 .tier-tag { background: #f3e8e5; color: var(--warn); }
+  .tier h3 { margin: 0; font-size: 19px; }
+  .tier-item { margin-top: 22px; }
+  .tier-item h4 {
+    margin-top: 0;
+    font-size: 15.5px;
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .tier-item h4 span {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 13.5px;
+    margin-left: 6px;
+  }
+
+  /* ---------- Operational layers table ---------- */
+  .layers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .layers-table th, .layers-table td {
+    text-align: left;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+    font-size: 14.5px;
+    vertical-align: top;
+  }
+  .layers-table th {
+    background: #f0ebde;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+  }
+  .layers-table tr:last-child td { border-bottom: none; }
+  .layers-table td:first-child { font-weight: 600; color: var(--ink); width: 38%; }
+  .intensity-pill {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 9px;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+  .pill-vh { background: #f3e8e5; color: var(--warn); }
+  .pill-h { background: #fbf2e3; color: var(--gold); }
+  .pill-mh { background: #fdf6e8; color: #8a6a1a; }
+  .pill-m { background: #eef3f6; color: var(--accent); }
+  .pill-l { background: #e8f3ec; color: var(--good); }
+
+  /* ---------- Option cards ---------- */
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+    margin-top: 24px;
+  }
+  .option-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 24px 26px;
+    border-top: 3px solid var(--accent);
+  }
+  .option-card.option-c { border-top-color: var(--warn); }
+  .option-card.option-d { border-top-color: var(--good); }
+  .option-card.option-build { border-top-color: var(--muted); }
+  .option-card .opt-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .option-card h3 { margin-top: 4px; font-size: 19px; }
+  .option-card p { font-size: 14.5px; }
+  .option-card .opt-meta {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--line);
+  }
+
+  /* ---------- Vendor list ---------- */
+  .vendor {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 2px;
+    padding: 20px 24px;
+    margin-bottom: 14px;
+  }
+  .vendor h4 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .vendor .v-tag {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .vendor p { font-size: 14.5px; margin-bottom: 0; }
+
+  /* ---------- Compliance / questions list ---------- */
+  .compliance-list, .questions-list {
+    counter-reset: clist;
+    list-style: none;
+    padding: 0;
+    margin-top: 16px;
+  }
+  .compliance-list li, .questions-list li {
+    counter-increment: clist;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 18px 22px 18px 64px;
+    position: relative;
+    margin-bottom: 12px;
+  }
+  .compliance-list li::before, .questions-list li::before {
+    content: counter(clist);
+    position: absolute;
+    left: 22px;
+    top: 18px;
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    color: var(--gold);
+    font-weight: 600;
+  }
+  .compliance-list li strong, .questions-list li strong {
+    color: var(--ink);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ---------- Mechanism / next steps ---------- */
+  .mechanisms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    margin-top: 24px;
+  }
+  .mechanism {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 24px 26px;
+  }
+  .mechanism .m-num {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: var(--gold);
+    font-size: 14px;
+  }
+  .mechanism h4 {
+    margin: 6px 0 10px;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .mechanism p { font-size: 14.5px; margin-bottom: 0; }
+
+  .roadmap {
+    margin-top: 28px;
+  }
+  .roadmap-phase {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 22px 26px;
+    margin-bottom: 14px;
+    position: relative;
+  }
+  .roadmap-phase .phase-label {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: var(--accent);
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .roadmap-phase .phase-time {
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .roadmap-phase ul { margin: 8px 0 0; }
+  .roadmap-phase li { font-size: 14.5px; }
+
+  /* ---------- Closing ---------- */
+  .closing {
+    background: linear-gradient(180deg, #0f1c2e 0%, #1a2e47 100%);
+    color: #e8eef5;
+    padding: 80px 32px;
+    margin-top: 60px;
+  }
+  .closing-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+  .closing .section-num { color: var(--gold); }
+  .closing h2 { color: #ffffff; font-size: clamp(28px, 3vw, 36px); }
+  .closing p { color: #c4cfdc; font-size: 16.5px; }
+  .closing .pull {
+    border-left: 3px solid var(--gold);
+    padding: 4px 0 4px 22px;
+    margin: 28px 0;
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: #0a1320;
+    color: #8a99af;
+    padding: 40px 32px;
+    font-size: 13.5px;
+  }
+  .footer-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-end;
+  }
+  .footer-inner .author {
+    font-family: 'Fraunces', serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: italic;
+  }
+  .footer-inner .author span {
+    color: var(--gold);
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .sources {
+    background: #0a1320;
+    color: #8a99af;
+    padding: 36px 32px 12px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .sources-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+  .sources-label {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 720px) {
+    .nav { display: none; }
+    .hero { padding: 56px 22px 40px; }
+    section { padding: 48px 22px; }
+    .closing { padding: 56px 22px; }
+    .layers-table { font-size: 13.5px; }
+    .layers-table th, .layers-table td { padding: 11px 12px; }
+    .compliance-list li, .questions-list li { padding-left: 56px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Top navigation -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">Biomapas <span class="dot">·</span> Strategic Analysis</div>
+    <nav class="nav">
+      <a href="#framing">Framing</a>
+      <a href="#baseline">Baseline</a>
+      <a href="#ai-application">AI Application</a>
+      <a href="#regulatory">Regulatory</a>
+      <a href="#vendors">Vendors</a>
+      <a href="#decision">Decision</a>
+      <a href="#revenue">€200M</a>
+      <a href="#next-steps">Next Steps</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<div class="hero">
+  <span class="eyebrow">Strategic Analysis · May 2026</span>
+  <h1>Biomapas Pharmacovigilance Revenue Vertical: <em>AI &amp; Automation Strategic Analysis</em></h1>
+  <p class="hero-sub">
+    Automation readiness, AI integration pathways, vendor landscape, M&amp;A/partnership options, and strategic implications for the €200M revenue target by 2030.
+  </p>
+
+  <div class="meta-grid">
+    <div>
+      <div class="meta-label">Prepared for</div>
+      <div class="meta-value">Biomapas Leadership</div>
+    </div>
+    <div>
+      <div class="meta-label">Date</div>
+      <div class="meta-value">May 2026</div>
+    </div>
+    <div>
+      <div class="meta-label">Scope</div>
+      <div class="meta-value">Pharmacovigilance (PV) Vertical</div>
+    </div>
+    <div>
+      <div class="meta-label">Horizon</div>
+      <div class="meta-value">€200M Revenue · 2030</div>
+    </div>
+  </div>
+</div>
+
+<!-- Disclaimer -->
+<div class="disclaimer">
+  <div class="disclaimer-box">
+    <strong>A note before you read.</strong> This document is built from publicly available information — Biomapas's published service architecture and regulatory framework documentation. It is intentionally structured as a hypothesis set, not a findings report.
+  </div>
+</div>
+
+<!-- 1. Executive Framing -->
+<section id="framing">
+  <div class="section-num">01 — Executive Framing</div>
+  <h2>Why this analysis now</h2>
+  <p class="lede">The pharmacovigilance outsourcing market is undergoing a structural shift. This is not a trend to monitor — it is already a competitive reality.</p>
+
+  <p>The EMA's 2026 GVP update has made AI-powered pharmacovigilance tools and automated signal detection systems an expectation, not an option for MAHs. Simultaneously, the EMA–FDA joint Good AI Practice Principles published in January 2026 have moved AI in PV from "interesting pilot" to regulated activity. The EU AI Act's high-risk rules are taking effect in August 2026, and any AI system deployed in a PV workflow will carry formal validation, documentation, and human oversight obligations.</p>
+
+  <p>This means one specific thing for Biomapas: the window to position proactively — before clients require it contractually — is approximately <strong>12–18 months</strong>. Competitors are already moving. ArisGlobal presented at the 40th Pharmacovigilance UK &amp; EU conference in March 2026 on "Agentic AI and the Next Horizon for Pharmacovigilance" — explicitly framing the shift from task automation toward decision intelligence. Parexel acquired Vitrana and its AI-powered PV platform in early 2026. AstraZeneca acquired Boston-based AI partner Modella AI to bring foundation models in-house.</p>
+
+  <p>Biomapas must decide now: <strong>build, buy, partner, or fall behind</strong>. This document maps the operational reality of the PV vertical, identifies where automation and AI create real value, assesses the vendor/partner landscape relevant to Biomapas's geography and client profile, and makes a case for a sequenced strategic response.</p>
+</section>
+
+<!-- 2. Operational Baseline -->
+<section id="baseline">
+  <div class="section-num">02 — Operational Baseline</div>
+  <h2>What the PV vertical actually is</h2>
+  <p class="lede">Before any automation or AI discussion is credible, the process architecture must be understood precisely. The PV vertical is not a single service — it is a modular stack of at least nine distinct operational layers.</p>
+
+  <h3>2.1 The nine operational layers</h3>
+  <table class="layers-table">
+    <thead>
+      <tr>
+        <th>Layer</th>
+        <th>Revenue Type</th>
+        <th>Daily Operational Intensity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Commercial &amp; Contracting (PVA)</td><td>One-time / setup</td><td><span class="intensity-pill pill-l">Low</span></td></tr>
+      <tr><td>PV System Set-Up (database, SOPs, CSV)</td><td>One-time / project</td><td><span class="intensity-pill pill-h">High (one-off)</span></td></tr>
+      <tr><td>QPPV Services (EU/UK/EAEU/Turkey)</td><td>Recurring retainer</td><td><span class="intensity-pill pill-mh">Medium-High (24/7 liability)</span></td></tr>
+      <tr><td>ICSR Case Processing</td><td>Recurring, volume-driven</td><td><span class="intensity-pill pill-vh">Very High</span></td></tr>
+      <tr><td>Literature Screening</td><td>Recurring, weekly</td><td><span class="intensity-pill pill-h">High</span></td></tr>
+      <tr><td>Signal Detection &amp; Management</td><td>Periodic / ongoing</td><td><span class="intensity-pill pill-mh">Medium-High</span></td></tr>
+      <tr><td>Aggregate Reporting (PSUR/PBRER/DSUR)</td><td>Periodic</td><td><span class="intensity-pill pill-h">High (deadline-driven)</span></td></tr>
+      <tr><td>RMP Development &amp; Maintenance</td><td>Project + maintenance</td><td><span class="intensity-pill pill-m">Medium</span></td></tr>
+      <tr><td>PSMF Creation &amp; Maintenance</td><td>Ongoing maintenance</td><td><span class="intensity-pill pill-m">Medium</span></td></tr>
+    </tbody>
+  </table>
+  <p>The critical insight is that <strong>ICSR Case Processing and Literature Screening</strong> together represent the highest-volume, most-labor-intensive, and most time-critical operations — and are therefore simultaneously the highest-cost layers and the highest-automation opportunity layers. Any AI investment that does not address these two layers first is strategically misaligned.</p>
+
+  <h3>2.2 Data ownership: the most underestimated constraint</h3>
+  <p>Biomapas operates as a GDPR Data Processor, not a Data Controller, across all PV operations. The MAH (client) owns the data. This has three non-negotiable consequences for any AI strategy:</p>
+  <ul>
+    <li>Biomapas <strong>cannot use client ICSR data to train a proprietary AI model</strong> without explicit contractual permission from each MAH client. This is a legal constraint, not a technical one. It is also a commercial negotiation point for every new client agreement from 2026 onward.</li>
+    <li>Every AI tool Biomapas integrates into a validated GxP workflow (Veeva Vault Safety) must itself be <strong>validated under Computer System Validation (CSV) requirements</strong> and documented accordingly. Adding AI without a validated CSV package exposes the client MAH to regulatory inspection risk — which is the MAH's problem, but also Biomapas's reputational and contractual risk.</li>
+    <li><strong>Signal detection visibility gaps</strong> exist in markets where national authority forwarding is the only data channel — particularly relevant in markets outside the EU/UK where no EudraVigilance-equivalent query access exists. This is an operational risk that requires proactive NCA relationship management, not a technology solution.</li>
+  </ul>
+
+  <h3>2.3 Geographic reality check</h3>
+  <p>The document maps a broad geographic footprint, and this is Biomapas's documented market positioning. However, for strategic purposes — particularly when evaluating automation ROI, vendor partnerships, and M&amp;A targets — active revenue markets must be distinguished from aspirational or exploratory ones.</p>
+  <p><strong>Core active markets where Biomapas operates with strength:</strong> Lithuania and the Baltics, Poland, Romania, Bulgaria, Czech Republic, Slovakia, Hungary, France, Belgium, Netherlands, UK, and Turkey. These are the markets where Biomapas has established client relationships, active QPPV network coverage, and recurring revenue — and they represent the EU-27 and UK regulatory environment that accounts for the substantial majority of operational volume.</p>
+  <p><strong>Markets on the horizon:</strong> Certain CIS/EAEU markets (Armenia, Kazakhstan, Georgia, and others in the region) are being explored and some clients exist there, but they represent a smaller portion of current activity and should be treated as a longer-term geographic expansion layer — not as a primary focus for near-term AI or automation investment decisions.</p>
+  <p><strong>Markets being watched:</strong> Japan, Singapore, China, and other APAC markets may be relevant in a longer-term growth scenario but are not material to the current operational or automation discussion.</p>
+  <p>Any AI or automation investment must be sequenced to deliver ROI in the core EU and UK markets first. Building a validated AI intake pipeline optimized for EudraVigilance E2B R3 submissions, MHRA Yellow Card gateway automation, and TİTCK EBS integration creates immediate value across the largest client base. Extending capability into other markets can follow once the core infrastructure is proven and scalable.</p>
+</section>
+
+<!-- 3. Where AI Can Be Applied -->
+<section id="ai-application">
+  <div class="section-num">03 — AI &amp; Automation Application</div>
+  <h2>Where AI and automation can be applied: an honest assessment</h2>
+  <p class="lede">The process mapping reveals a clear tiered structure of automation readiness. This is not a list of aspirations — it is a prioritized investment map.</p>
+
+  <!-- Tier 1 -->
+  <div class="tier tier-1">
+    <div class="tier-header">
+      <span class="tier-tag">Tier 1</span>
+      <h3>High readiness, high value, act now</h3>
+    </div>
+
+    <div class="tier-item">
+      <h4>ICSR Data Extraction <span>OCR + NLP</span></h4>
+      <p>The single highest-impact, fastest-deployable automation. Incoming reports arrive as unstructured PDFs, emails, phone call transcripts, and web forms across all EU markets. Manually re-keying data from these into Veeva Vault Safety is labor-intensive and error-prone. AI document extraction using OCR and NLP is already embedded in Veeva Vault Safety's native Case Intake Agent. The question for Biomapas is not whether to use this — it is whether it is currently activated and properly configured for all client workflows, including multilingual inputs from key EU markets (Polish, Romanian, French, Dutch, Turkish). If this is not fully deployed, it is the first thing to fix.</p>
+    </div>
+
+    <div class="tier-item">
+      <h4>MedDRA Auto-Coding</h4>
+      <p>MedDRA coding is among the most resource-intensive sub-tasks in case processing. An experienced coder spends significant time per case; dictionary version updates create re-coding cycles. AI-assisted auto-coding with mandatory human confirmation is technically mature, with TransCelerate's industry initiative already benchmarking accuracy. Vendors including ArisGlobal NavaX and Oracle Argus AI modules offer this capability today. The critical prerequisite: the active MedDRA version in the safety database must be locked and systematically updated before any AI coding layer is added.</p>
+    </div>
+
+    <div class="tier-item">
+      <h4>Expectedness and Reportability Assessment <span>Rule Engine + NLP</span></h4>
+      <p>Comparing verbatim event terms against the current SmPC/CCDS for expectedness, and then applying multi-market reportability logic (EU 15-day rule, MHRA 15-day rule, TUFAM 15-day rule) is a rule-heavy task that follows explicit decision trees. This is highly suitable for rule-engine automation augmented by NLP for label comparison. For Biomapas operating across multiple EU member states plus UK and Turkey simultaneously, a validated multi-market reportability engine reduces the single largest risk of deadline breach — and a >99% on-time expedited submission rate is the industry benchmark that client contracts are built around.</p>
+    </div>
+
+    <div class="tier-item">
+      <h4>Literature Screening <span>PubMed/Embase + NLP Triage</span></h4>
+      <p>Weekly search execution across PubMed and Embase APIs is already technically automatable — both databases offer programmatic access. The high-value AI layer is NLP-based abstract triage: classifying retrieved articles as "clearly irrelevant," "requires full-text review," or "contains potential ICSR." This step currently consumes significant human attention and can be substantially accelerated with a trained NLP classifier.</p>
+      <p>A note of competitive context is warranted here. Local language literature screening across EU markets — Polish, Romanian, Czech, Slovak, Lithuanian, French, Dutch, Turkish — is not fully automatable with off-the-shelf tools, because many regional journals are not comprehensively indexed in standard APIs. Biomapas's native-language specialist capability in this area is operationally valuable and difficult to replicate at speed. However, the competitive moat should not be overstated: large global CROs such as IQVIA and Parexel maintain local specialist networks across major EU markets and are actively investing in multilingual AI tooling. Notably, ArisGlobal launched NavaX Translation in February 2026 — a certified, pharma-grade multilingual translation layer embedded directly into LifeSphere Safety workflows — signalling that technology-driven multilingual capability is advancing rapidly.</p>
+      <p>Biomapas's advantage in this area is real but time-limited and geography-specific: it is strongest in CEE markets (Polish, Romanian, Czech, Slovak, Lithuanian) where global CRO local presence is thinner, and weaker as a differentiator in Western European markets. This capability should be preserved, not automated away, and positioned explicitly to clients as a compliance service — particularly for CEE-heavy product portfolios — while recognising that it will require ongoing investment to remain competitive as multilingual AI tooling matures.</p>
+    </div>
+
+    <div class="tier-item">
+      <h4>PSUR/PBRER Data Compilation <span>Automated Extraction + Table Generation</span></h4>
+      <p>Data lock point extraction from Veeva Vault Safety, case count tables by SOC and seriousness, interval summary statistics — these are structured data extraction tasks that are fully automatable from a validated database. Several vendors now offer report shell pre-population directly from safety database queries. This reduces PSUR preparation time materially and shifts human effort toward the benefit-risk narrative and QPPV review, where it belongs.</p>
+    </div>
+
+    <div class="tier-item">
+      <h4>Submission Compliance Tracking <span>Real-Time Dashboard</span></h4>
+      <p>Veeva Vault Safety already has partial dashboard functionality. A fully configured real-time compliance dashboard — tracking every pending ICSR by jurisdiction, deadline, and current processing stage — is a low-cost, high-value operational tool that both reduces internal risk and creates a visible compliance demonstration for client audits. If not fully configured today, this is a quick win.</p>
+    </div>
+  </div>
+
+  <!-- Tier 2 -->
+  <div class="tier tier-2">
+    <div class="tier-header">
+      <span class="tier-tag">Tier 2</span>
+      <h3>Medium readiness, requires investment and governance decisions</h3>
+    </div>
+
+    <div class="tier-item">
+      <h4>LLM-Based Narrative Writing <span>Draft + Medical Review</span></h4>
+      <p>Large language model drafting of ICSR narratives is technically available and already piloted by several CROs. The regulatory constraint is important: a medically qualified person must review and sign off before submission. This does not prevent AI drafting — it constrains the workflow to AI-draft, human-review-and-approve. The risk is quality control: LLM narratives may be fluent but clinically imprecise, and the downstream liability if a poorly drafted narrative contributes to a missed signal is real. This is a medium-term investment requiring careful validation, not an immediate deployment.</p>
+    </div>
+
+    <div class="tier-item">
+      <h4>Signal Detection Enhancement <span>NLP + Emerging Sources</span></h4>
+      <p>Quantitative signal detection (ROR, PRR, EBGM disproportionality analysis) is already semi-automated in Veeva Vault Safety's signal module. The AI enhancement opportunity is extending signal detection to unstructured text sources: narrative text from ICSRs, published literature flagged in screening, and — for clients with social media monitoring obligations — digital channels. Agentic AI systems described in the March 2026 ArisGlobal presentation explicitly target this layer, describing the move from "task automation to decision intelligence". This is a 2–3 year investment horizon for Biomapas, not an immediate deployment.</p>
+    </div>
+  </div>
+
+  <!-- Tier 3 -->
+  <div class="tier tier-3">
+    <div class="tier-header">
+      <span class="tier-tag">Tier 3</span>
+      <h3>Structural limitations or governance prerequisites required</h3>
+    </div>
+
+    <div class="tier-item">
+      <h4>PSMF Dynamic Automation, SOP Version Management, CSV Documentation Generation</h4>
+      <p>All of these are medium-readiness automation opportunities that require process-explicit SOPs as a prerequisite. If any PV processes at Biomapas are currently managed by experienced staff relying on tacit knowledge rather than fully documented decision logic, automation cannot proceed until that documentation is complete. This is an internal readiness question that must be answered before vendor evaluations begin.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Regulatory Tailwind -->
+<section id="regulatory">
+  <div class="section-num">04 — Regulatory Tailwind</div>
+  <h2>GVP 2026 as a commercial accelerator</h2>
+  <p>The most strategically significant external development is the EMA's 2026 GVP update, which makes AI-powered PV tools and automated signal detection systems an expectation, not an option for MAHs. The EMA has confirmed that GVP modules will be revised per ICH M14 (real-world data and evidence in post-market safety assessment), and companies adopting AI must demonstrate documented human oversight and validation traceability.</p>
+
+  <p>This creates an immediate commercial dynamic for Biomapas: clients who currently lack AI-integrated PV systems now face a regulatory compliance gap. A Biomapas that can offer validated, AI-augmented PV services — with documented human oversight and GVP-compliant audit trails — becomes the solution to that gap rather than a passive observer of it.</p>
+
+  <p>Simultaneously, the EU AI Act's classification of many healthcare AI applications as high-risk means that any AI tool deployed in a regulated PV workflow carries formal validation obligations. This is a barrier to entry for smaller or less technically sophisticated competitors — and a reason why a well-structured AI integration at Biomapas, done properly with full CSV validation, is defensible and difficult to replicate quickly.</p>
+
+  <p>The January 2026 EMA–FDA joint Good AI Practice Principles further signal that regulatory harmonization on AI in PV is accelerating. Companies that are already compliant with these principles when auditors begin inspecting AI tools — likely 2027 onwards — will face dramatically lower compliance burden than those still in implementation.</p>
+</section>
+
+<!-- 5. Vendor Landscape -->
+<section id="vendors">
+  <div class="section-num">05 — Vendor Landscape</div>
+  <h2>Who is doing what, and what is relevant for Biomapas</h2>
+  <p class="lede">A pragmatic assessment of relevant vendors — filtered for relevance to Biomapas's profile (European CRO, mid-size pharma clients, multi-jurisdictional EU/UK/Turkey footprint, Veeva Vault Safety-based).</p>
+
+  <div class="vendor">
+    <div class="v-tag">5.1 — Foundation</div>
+    <h4>Veeva Vault Safety — Maximize before replacing</h4>
+    <p>Biomapas's existing investment in Veeva Vault Safety is the right operational foundation. The platform has a native AI Case Intake Agent (OCR + NLP document extraction), integrated signal detection, E2B R2/R3 gateway support, and multi-company architecture via Vault Network. The critical question is not whether to change platforms — it is whether Biomapas is using all existing AI and automation capabilities in the platform. The Veeva roadmap for 2026 includes further agentic AI capabilities. Before any external vendor is evaluated, Biomapas should conduct a full internal audit of Veeva Vault Safety feature utilization.</p>
+    <p style="margin-top: 12px;">It must be acknowledged, however, that Veeva Vault Safety is primarily a validated safety database with progressively expanding AI features — not an AI-first pharmacovigilance platform. In head-to-head capability comparisons with dedicated AI layers such as ArisGlobal NavaX, Veeva's current AI functionality is more limited in scope and depth. The "maximize Veeva first" recommendation is the correct immediate action, but it should not be treated as a substitute for a medium-term decision on differentiated AI capability. If clients begin requiring NavaX-equivalent performance as a contract condition, Veeva's native roadmap may not close that gap on the timelines that matter commercially.</p>
+  </div>
+
+  <div class="vendor">
+    <div class="v-tag">5.2 — Primary Strategic Watch</div>
+    <h4>ArisGlobal LifeSphere + NavaX</h4>
+    <p>ArisGlobal is the most directly relevant competitor/partner to evaluate. Their NavaX platform is now used by 6 of the top 25 pharma companies and reports 65% efficiency gains in case processing. NavaX provides AI-driven automation across intake, coding, signal detection, and aggregate reporting. ArisGlobal's SVP of AI presented on Agentic AI in PV in March 2026, explicitly describing the progression from bounded task automation to autonomous decision support.</p>
+    <p style="margin-top: 12px;"><strong>Why it matters for Biomapas:</strong> If Biomapas's largest EU and UK clients begin requiring NavaX-level automation capability as a contract condition, Biomapas must either deploy a comparable AI layer (on Veeva or otherwise) or risk client loss. More importantly, ArisGlobal is itself a potential acquisition target or partnership candidate. As a European-headquartered operation with strong EU-market penetration, evaluating a commercial partnership arrangement with ArisGlobal for their AI capabilities applied to Biomapas's Veeva-based workflows is worth exploring.</p>
+  </div>
+
+  <div class="vendor">
+    <div class="v-tag">5.3 — Case Processing Throughput</div>
+    <h4>Qinecsa Solutions (HaloPV)</h4>
+    <p>Qinecsa, which released HaloPV 6.2 in March 2026 with a focus on global PV compliance and platform stability, is a dedicated pharmacovigilance technology provider with case processing automation and QA sampling tools. Their focus on throughput and quality assurance automation is directly applicable to Biomapas's ICSR processing layer. Qinecsa is notably smaller and potentially acquirable.</p>
+  </div>
+
+  <div class="vendor">
+    <div class="v-tag">5.4 — Competitor Context</div>
+    <h4>IQVIA, Oracle, Parexel — competitors, not partners</h4>
+    <p>These are competitors operating at a significantly larger scale. Parexel's acquisition of Vitrana (AI-powered PV) in early 2026 signals that the large CRO market is consolidating AI capabilities through acquisition. This is the competitive pressure Biomapas faces: large CROs are buying their way to AI capability. Biomapas's response cannot be organic capability-building alone over five years — the timeline is too long.</p>
+  </div>
+
+  <div class="vendor">
+    <div class="v-tag">5.5 — Emerging AI-Native Player</div>
+    <h4>Deep Intelligent Pharma</h4>
+    <p>Deep Intelligent Pharma is described as an AI-native platform using multi-agent systems for PV workflow automation, reporting 18% efficiency gains over BioGPT and BenevolentAI in R&amp;D automation benchmarks. Their focus on natural language interaction and multi-agent workflow automation is directly applicable to narrative writing, expectedness assessment, and signal triage. Worth monitoring and potentially piloting on a specific process layer.</p>
+  </div>
+
+  <div class="vendor">
+    <div class="v-tag">5.6 — AI-Augmented Safety Analytics</div>
+    <h4>Saama Technologies</h4>
+    <p>Saama is positioned in clinical trial and post-market safety analytics using AI. Their focus on signal detection and aggregate report intelligence complements a Veeva-based infrastructure. A partnership or white-label arrangement for AI analytics capabilities is a lower-risk approach than platform replacement.</p>
+  </div>
+
+  <div class="vendor">
+    <div class="v-tag">5.7 — Specific Gap to Address</div>
+    <h4>Regulatory Intelligence Automation</h4>
+    <p>The regulatory intelligence function — monitoring EMA, MHRA, TUFAM, and national EU competent authority updates across all 27 member states — is currently largely manual at most CROs. Several SaaS tools now offer automated regulatory update tracking with NLP summarization. For a company operating across the full EU regulatory environment simultaneously, this is a high-value automation with relatively low implementation risk. Tools in this category include Cortellis Regulatory Intelligence (Clarivate) and MCM Regulatory Intelligence — both directly relevant for the EU/UK/Turkey regulatory portfolio.</p>
+  </div>
+</section>
+
+<!-- 6. Build vs Buy vs Partner -->
+<section id="decision">
+  <div class="section-num">06 — Decision Framework</div>
+  <h2>Build vs. buy vs. partner</h2>
+  <p class="lede">The €200M revenue target by 2030 requires that Biomapas's PV vertical grows substantially — and AI/automation is both a margin lever and a revenue expansion lever. The options are not mutually exclusive, but they require different capital allocation and different timelines.</p>
+
+  <div class="options-grid">
+    <div class="option-card">
+      <div class="opt-label">Option A · Immediate · Low Cost</div>
+      <h3>Native Platform Maximization</h3>
+      <p><strong>What:</strong> Fully activate all existing AI/automation features in Veeva Vault Safety (Case Intake Agent, signal detection module, E2B automation, dashboard configuration). Develop process-explicit SOPs as automation prerequisites. Configure multi-market reportability rule engines for EU/UK/Turkey.</p>
+      <p><strong>Why:</strong> Lowest-cost, fastest-ROI action available. Most CROs running Veeva Vault Safety are not using 100% of available features. The investment is in internal capability building and configuration, not in new software.</p>
+      <p><strong>What it does not solve:</strong> Differentiated AI capabilities beyond the Veeva roadmap; local language literature screening automation for broader EU markets; custom signal analytics. This option is a foundation step, not a complete AI strategy. The gap between Veeva's current native AI and dedicated AI-first platforms such as ArisGlobal NavaX is real and commercially relevant — Veeva's roadmap does not guarantee parity on the 12–24 month timeline that matters for competitive positioning. Option A buys time; it does not replace Options B and C.</p>
+      <div class="opt-meta">Capital: Low &nbsp;·&nbsp; Timeline: 0–6 months &nbsp;·&nbsp; Risk: Low</div>
+    </div>
+
+    <div class="option-card">
+      <div class="opt-label">Option B · 6–18 Months</div>
+      <h3>Targeted AI Tool Integration</h3>
+      <p><strong>What:</strong> Layer AI tools onto specific high-value process steps — MedDRA auto-coding, LLM-assisted narrative drafting, NLP literature triage, regulatory intelligence monitoring — using validated vendor integrations with Veeva Vault Safety.</p>
+      <p><strong>Key vendors to evaluate:</strong> ArisGlobal NavaX (AI coding and signal detection), Deep Intelligent Pharma (agentic workflow automation), Cortellis (regulatory intelligence), specialized NLP tools for local language literature triage.</p>
+      <p><strong>Critical prerequisite:</strong> Each integrated AI tool must go through CSV validation before use in regulated PV operations. This adds 3–6 months to deployment timelines. Budget for validation effort, not just licensing cost.</p>
+      <p><strong>Why this matters for revenue:</strong> A Biomapas that offers documented AI-augmented ICSR processing — with faster throughput, validated accuracy metrics, and GVP 2026-compliant human oversight — can command pricing premium over non-AI-enabled competitors and scale volume without proportional headcount growth.</p>
+      <div class="opt-meta">Capital: Medium &nbsp;·&nbsp; Timeline: 6–18 months &nbsp;·&nbsp; Risk: Medium</div>
+    </div>
+
+    <div class="option-card option-c">
+      <div class="opt-label">Option C · Highest Risk · Highest Return</div>
+      <h3>Strategic Acquisition</h3>
+      <p><strong>What:</strong> Acquire a European PV technology company — either an AI/automation tool provider or a competing CRO with differentiated technology.</p>
+      <p><strong>Relevant targets (illustrative):</strong></p>
+      <ul>
+        <li><strong>Qinecsa Solutions:</strong> European PV technology provider with dedicated HaloPV platform, growing rapidly. Acquisition would give Biomapas a proprietary PV technology stack that creates client stickiness and technology IP — directly supporting the M&amp;A growth strategy to €200M.</li>
+        <li><strong>AB Cube (France):</strong> French PV and regulatory affairs CRO with European market presence and technology focus. A strong geographic complement to Biomapas's CEE strength, extending the footprint into France, Belgium, and Western Europe.</li>
+        <li><strong>Specialist AI startups in EU life sciences:</strong> Several EU AI Act-compliant, healthcare-focused AI companies emerged in 2024–2025 in Germany, France, Netherlands, and the UK with NLP or agentic AI capabilities applicable to PV workflows.</li>
+      </ul>
+      <p><strong>Why M&amp;A in PV tech:</strong> Global life sciences M&amp;A increased 81% in 2025 to $240B. Digital health M&amp;A jumped 47% in Q1 2026. The acquisition premium is now on commercial adoption, not regulatory approval — meaning targets that already have deployed, revenue-generating AI tools in pharma clients are valued higher than those with promising but undeployed technology. Biomapas should evaluate acquisition targets on contracted client usage, not on technology demos.</p>
+      <div class="opt-meta">Capital: High &nbsp;·&nbsp; Timeline: 12–36 months &nbsp;·&nbsp; Risk: High</div>
+    </div>
+
+    <div class="option-card option-d">
+      <div class="opt-label">Option D · Complementary Capability</div>
+      <h3>Commercial Partnerships</h3>
+      <p><strong>What:</strong> Establish formal commercial partnerships with companies that have complementary data access or AI capabilities — specifically targeting the EU multilingual gap and regulatory intelligence needs.</p>
+      <p><strong>Examples:</strong></p>
+      <ul>
+        <li>White-label arrangement with an AI NLP provider for multilingual literature screening across EU languages (Polish, Romanian, Czech, French, Dutch, Turkish) — preserving Biomapas's human specialist layer while automating initial triage.</li>
+        <li>Partnership with a regulatory intelligence SaaS provider to automate monitoring of EMA, MHRA, and all 27 national competent authorities — positioning Biomapas as a proactive regulatory intelligence partner to clients, not just a PV operations executor.</li>
+        <li>Co-development of validated AI tools with a technology partner under a jointly owned IP arrangement — a model increasingly used by mid-size European CROs to build proprietary capability without full acquisition cost.</li>
+      </ul>
+      <div class="opt-meta">Capital: Low–Medium &nbsp;·&nbsp; Timeline: 6–24 months &nbsp;·&nbsp; Risk: Low–Medium</div>
+    </div>
+
+    <div class="option-card option-build">
+      <div class="opt-label">A Note on the "Build" Option</div>
+      <h3>Why pure proprietary build is not recommended now</h3>
+      <p>A fully proprietary AI build — developing Biomapas's own NLP models, training pipelines, and validated AI infrastructure from the ground up — is not recommended as a primary strategy at this stage, and this assessment is made deliberately rather than by omission.</p>
+      <p>The core reasons are structural. Biomapas does not currently have a dedicated data science function or AI engineering team. Recruiting and retaining this talent in the Lithuanian and Baltic market is possible but time-consuming and increasingly competitive, particularly as the broader EU tech sector continues to absorb available AI talent. Even with accelerated hiring, a credible internal AI build — one that meets GxP validation standards, performs reliably on multilingual ICSR data, and covers the full EU regulatory submission landscape — would require a minimum of 3–4 years to reach production-ready deployment. That timeline is not compatible with the 12–18 month competitive window identified in Section 1.</p>
+      <p>This does not mean internal capability is irrelevant. In the 24–48 month horizon, as Biomapas's AI integration matures through Options B and C, building selective internal AI competency — particularly for CEE-language NLP tasks where off-the-shelf tools underperform — becomes both feasible and strategically valuable. <strong>The sequencing matters: integrate and partner first, build selectively once the operational and data foundations are in place.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Compliance Layer -->
+<section id="compliance">
+  <div class="section-num">07 — Compliance Layer</div>
+  <h2>The AI integration compliance layer: not optional</h2>
+  <p>A point that must be explicit to the Biomapas Leadership: AI integration in PV is not purely a technology decision — it is a regulatory compliance and legal decision. Three non-negotiable requirements apply:</p>
+
+  <ol class="compliance-list">
+    <li>
+      <strong>CSV Validation for every AI component</strong>
+      Any AI tool added to a GxP-validated system (Veeva Vault Safety) must itself be validated under EU Annex 11 / GAMP 5. This means IQ/OQ/PQ protocols, validation master plan updates, and change control documentation. Biomapas must budget for this before any AI tool goes live in a client-facing workflow.
+    </li>
+    <li>
+      <strong>Human-in-the-loop for all expedited submissions</strong>
+      Under current GVP (and the 2026 update), a medically qualified person must review and approve every expedited ICSR before submission. No AI tool replaces this step. AI accelerates the upstream process; the human approval gate is non-negotiable and must be preserved in any workflow redesign.
+    </li>
+    <li>
+      <strong>DPA amendments for AI data usage</strong>
+      If Biomapas plans to use any ICSR data — even anonymized — to train or fine-tune AI models, this requires explicit consent in updated Data Processing Agreements with every MAH client. This is both a legal requirement and a commercial negotiation point. New client contracts should include AI data usage permissions as a standard clause from 2026 onward.
+    </li>
+  </ol>
+</section>
+
+<!-- 8. Key Questions -->
+<section id="questions">
+  <div class="section-num">08 — Internal Readiness</div>
+  <h2>Key questions Biomapas Leadership must answer internally</h2>
+  <p class="lede">The following cannot be resolved from external analysis. They are operational and contractual facts that block automation design if unanswered.</p>
+
+  <ol class="questions-list">
+    <li>
+      <strong>Veeva Vault Architecture</strong>
+      Is Biomapas running one shared multi-tenant Vault instance for all clients, or separate Vault instances per MAH? Multi-tenant architecture limits cross-client automation. This is the first architectural question to answer.
+    </li>
+    <li>
+      <strong>AI Feature Utilization Audit</strong>
+      Is the Veeva Vault Safety Case Intake Agent (AI document extraction) currently activated and configured for all clients? If not, this is an immediate unrealized value gap.
+    </li>
+    <li>
+      <strong>ICSR Volume Mapping</strong>
+      What is the monthly ICSR volume per client, per market? Automation ROI is entirely volume-dependent. A client processing 5 cases/month has different automation economics than a client processing 200 cases/month.
+    </li>
+    <li>
+      <strong>DPA Status</strong>
+      Do all existing MAH client contracts have GDPR-compliant DPAs that address AI data usage? If not, they must be updated before any AI tool that touches ICSR data is deployed.
+    </li>
+    <li>
+      <strong>SOP Explicitness</strong>
+      Are all PV SOPs written with explicit inputs, decision logic, outputs, and responsible roles — or are some steps dependent on experienced staff tacit knowledge? Process-explicit SOPs are the technical prerequisite for RPA and AI-assisted workflows. This audit should precede any vendor evaluation.
+    </li>
+    <li>
+      <strong>EudraVigilance Credential Structure</strong>
+      Are EVDAS credentials held at company level or at individual QPPV level? If individual-level, QPPV staff changes create EV access disruption — a dependency risk for automated signal detection workflows.
+    </li>
+    <li>
+      <strong>Multi-Market Submission Routing Logic</strong>
+      For clients with products authorized across multiple EU member states, UK, and Turkey simultaneously — is the per-market submission routing logic fully documented in SOPs, or is it held as tacit knowledge by senior staff? This is the most complex automation challenge in the entire PV system and must be documented before any submission automation can proceed.
+    </li>
+  </ol>
+</section>
+
+<!-- 9. Revenue Connection -->
+<section id="revenue">
+  <div class="section-num">09 — Revenue Connection</div>
+  <h2>Why this matters for the €200M target</h2>
+  <p class="lede">The connection between AI/automation in the PV vertical and the €200M target by 2030 is direct, but it operates through three separate mechanisms — not one.</p>
+
+  <div class="mechanisms">
+    <div class="mechanism">
+      <div class="m-num">Mechanism 1</div>
+      <h4>Margin expansion through efficiency</h4>
+      <p>ICSR processing is the highest-cost, most labor-intensive operation. If AI tools (document extraction, auto-coding, rule-based reportability) reduce processing time per case by 40% — a benchmark cited in multiple 2025–2026 industry analyses and already reported by ArisGlobal NavaX users — the margin on ICSR processing services expands materially without volume growth. For a CRO billing time-and-materials or per-case pricing, this translates directly to better unit economics.</p>
+    </div>
+    <div class="mechanism">
+      <div class="m-num">Mechanism 2</div>
+      <h4>Volume scaling without proportional headcount</h4>
+      <p>The primary constraint on PV CRO revenue growth is headcount: more clients and more cases require more PV scientists, QPPV-qualified staff, and medical reviewers. AI-augmented workflows change this ratio. A team that can process 30% more cases with the same headcount (through AI triage, auto-coding, and automated submission tracking) supports revenue growth without proportional cost growth. This is the structural lever for scaling from current revenue to €200M by 2030.</p>
+    </div>
+    <div class="mechanism">
+      <div class="m-num">Mechanism 3</div>
+      <h4>Market position and client acquisition</h4>
+      <p>As GVP 2026 makes AI-capable PV systems an expectation, clients across the EU and UK will increasingly require AI-integrated services as a contract condition. Biomapas's current positioning — as a high-quality European CRO with strong QPPV network coverage across the EU, UK, and Turkey — is defensible today. In 2–3 years, without a demonstrable AI capability, it will be increasingly difficult to win competitive bids against IQVIA, Parexel, and ArisGlobal-powered competitors. The strategic question is not whether to invest in AI — it is whether to invest early enough to capture the market positioning premium or late enough to be in catch-up mode.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10. Next Steps -->
+<section id="next-steps">
+  <div class="section-num">10 — Recommended Next Steps</div>
+  <h2>Sequenced and pragmatic</h2>
+
+  <div class="roadmap">
+    <div class="roadmap-phase">
+      <div class="phase-label">Immediate</div>
+      <div class="phase-time">0–3 months</div>
+      <ul>
+        <li>Conduct internal Veeva Vault Safety feature utilization audit. Activate Case Intake Agent for all clients if not already live.</li>
+        <li>Map ICSR monthly volumes per client and per EU/UK/Turkey market. Establish the automation ROI baseline.</li>
+        <li>Audit all existing MAH client DPAs for AI data usage permissions. Identify contracts requiring amendment.</li>
+        <li>Confirm EVDAS credential structure and EV gateway configuration per client.</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-phase">
+      <div class="phase-label">Short-term</div>
+      <div class="phase-time">3–12 months</div>
+      <ul>
+        <li>Develop a pilot AI-augmented ICSR processing workflow for 1–2 high-volume EU clients: AI data extraction + AI MedDRA coding suggestion + human confirmation + automated reportability check. Validate the workflow under CSV requirements. Measure time-per-case reduction.</li>
+        <li>Evaluate and pilot an automated regulatory intelligence monitoring tool covering EMA, MHRA, TUFAM, and all relevant EU national competent authorities. This is low-cost, high-value, and immediately demonstrable to clients.</li>
+        <li>Begin updating new client contract templates to include AI data usage permissions and updated DPA language.</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-phase">
+      <div class="phase-label">Medium-term</div>
+      <div class="phase-time">12–24 months</div>
+      <ul>
+        <li>Evaluate ArisGlobal NavaX as either a partnership or integration layer for AI coding, signal detection enhancement, and aggregate report pre-population. Assess commercial terms against Veeva-native capabilities on the Biomapas roadmap.</li>
+        <li>Investigate Qinecsa Solutions as a potential acquisition target. Evaluate client base, technology stack, European market presence, and revenue profile.</li>
+        <li>Evaluate AB Cube (France) or comparable Western European PV CROs as potential acquisitions to extend Biomapas's geographic reach into France, Belgium, and the Netherlands — markets where Biomapas can grow by acquisition rather than organic development.</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-phase">
+      <div class="phase-label">Strategic</div>
+      <div class="phase-time">24–48 months</div>
+      <ul>
+        <li>If internal AI development is pursued: define the AI product roadmap, establish a dedicated data science team or partnership with a validated AI model provider, begin building training datasets (appropriately anonymized, with MAH consent) from processed ICSR histories.</li>
+        <li>Evaluate acquisition targets in European PV technology and AI life sciences that align with Biomapas's EU/UK/Turkey footprint and client profile. Apply the market-proven M&amp;A criterion: commercial adoption over regulatory approval — only acquire targets with deployed, revenue-generating AI tools in active pharma client relationships.</li>
+        <li>Consider whether a standalone AI-augmented PV platform (branded under Biomapas or a subsidiary) could be marketed directly to MAHs as a SaaS product alongside full-service outsourcing — a model that several European PV CROs are beginning to explore and one that creates a new revenue stream beyond headcount-based billing.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Closing -->
+<div class="closing">
+  <div class="closing-inner">
+    <div class="section-num">11 — Closing Assessment</div>
+    <h2>The window is 12–18 months</h2>
+
+    <p>The Biomapas PV vertical is operationally sophisticated and geographically differentiated. The QPPV network coverage across the EU/EEA and UK is a genuine competitive moat. The Veeva Vault Safety infrastructure is the right foundation. The local language literature screening capability across EU markets is operationally valuable and should be positioned explicitly as a compliance service — particularly for CEE-heavy product portfolios — while recognising that multilingual AI tooling from vendors such as ArisGlobal is advancing rapidly and will erode this advantage over time in Western European markets unless Biomapas invests to stay ahead.</p>
+
+    <div class="pull">
+      The strategic risk is not that Biomapas lacks capability — it is that the pace of AI adoption in the PV market is accelerating faster than organic capability-building allows.
+    </div>
+
+    <p>EMA's 2026 GVP update has changed the regulatory expectation baseline. Parexel, IQVIA, and ArisGlobal are already positioning AI as a standard service differentiator across the EU and UK markets where Biomapas competes every day. The window to move from observer to leader in AI-augmented PV is 12–18 months, after which the gap between early movers and late adopters will be structural rather than recoverable.</p>
+
+    <p>The path to €200M by 2030 runs through three parallel actions: <strong style="color:#fff;">maximizing the existing Veeva platform's AI capabilities now</strong> as a foundation step, <strong style="color:#fff;">acquiring or partnering for differentiated AI capabilities in the medium term</strong> — where the Veeva-native roadmap alone is unlikely to suffice — and <strong style="color:#fff;">positioning Biomapas's AI readiness as a client acquisition and retention argument</strong> across the EU, UK, and Turkey — starting today.</p>
+  </div>
+</div>
+
+<!-- Sources -->
+<div class="sources">
+  <div class="sources-inner">
+    <div class="sources-label">Sources</div>
+    <p style="margin:0;color:#8a99af;">Prepared May 2026. Sources: Biomapas website and LinkedIn presence, EMA GVP 2026 update, EMA–FDA joint Good AI Practice Principles Jan 2026, EU Council AI guidance Q4 2026 roadmap, ArisGlobal NavaX market data, ArisGlobal NavaX Translation launch Feb 2026, Parexel/Vitrana acquisition, Life sciences M&amp;A data EY 2026, Digital health M&amp;A Q1 2026, TransCelerate PV automation survey, ISoP 9th Intelligent Automation Seminar Dec 2025.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div class="author">
+      <span>Author</span>
+      Raimonda Pilipavičiūtė
+    </div>
+    <div style="text-align:right;">
+      <div style="color:#5a6a82;font-size:11px;text-transform:uppercase;letter-spacing:0.14em;margin-bottom:4px;">Document</div>
+      <div style="color:#c4cfdc;">Biomapas PV Strategic Analysis · May 2026</div>
+    </div>
+  </div>
+</footer>
+
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="transform:translate(-${scrollX}px,-${scrollY}px);transform-origin:top left">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
